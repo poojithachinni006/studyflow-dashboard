@@ -33,7 +33,6 @@ export default function ActivityTile() {
       rounded-3xl
       p-6"
     >
-      {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="font-semibold text-lg">
           Activity
@@ -54,9 +53,7 @@ export default function ActivityTile() {
         </div>
       </div>
 
-      {/* Heatmap */}
       <div className="flex gap-3">
-        {/* Days */}
         <div className="flex flex-col justify-between text-xs text-zinc-500">
           <span>Mon</span>
           <span>Tue</span>
@@ -67,7 +64,6 @@ export default function ActivityTile() {
           <span>Sun</span>
         </div>
 
-        {/* Activity Grid */}
         <div className="grid grid-cols-5 gap-2">
           {[...Array(35)].map((_, i) => (
             <div
@@ -93,7 +89,6 @@ export default function ActivityTile() {
         </div>
       </div>
 
-      {/* Footer */}
       <div className="flex items-center justify-between mt-6">
         <p className="text-sm text-zinc-500">
           Last 30 days activity
