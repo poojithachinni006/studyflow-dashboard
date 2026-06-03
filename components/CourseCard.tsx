@@ -54,7 +54,7 @@ export default function CourseCard({
       to-black
       border border-zinc-800"
     >
-      {/* Mesh Background */}
+     
       <div
         className="
         absolute
@@ -88,7 +88,7 @@ export default function CourseCard({
           </span>
         </div>
 
-        {/* Title */}
+      
         <h3
           className="
           mt-5
@@ -99,7 +99,7 @@ export default function CourseCard({
           {title}
         </h3>
 
-        {/* Lessons */}
+       
         <p
           className="
           mt-2
@@ -109,7 +109,6 @@ export default function CourseCard({
           20 Lessons
         </p>
 
-        {/* Progress */}
         <div className="mt-6">
           <div className="h-2 bg-zinc-800 rounded-full">
             <motion.div
