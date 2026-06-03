@@ -29,7 +29,7 @@ export default function HeroTile() {
       via-[#111827]
       to-black"
     >
-      {/* Glow Effect */}
+      
       <div className="absolute -top-20 -right-20 w-72 h-72 bg-green-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-emerald-400/5 rounded-full blur-3xl" />
       <div
@@ -40,7 +40,7 @@ export default function HeroTile() {
   bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)]
   bg-[size:40px_40px]"
 />
-      {/* Content */}
+     
       <div className="relative z-10 flex justify-between h-full">
         <div>
           <p className="text-green-400 font-medium mb-2">
@@ -72,7 +72,7 @@ export default function HeroTile() {
           </button>
         </div>
 
-        {/* Progress Card */}
+       
         <div
           className="
           bg-white/5
